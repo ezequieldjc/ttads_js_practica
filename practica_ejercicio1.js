@@ -4,7 +4,7 @@
         si criterio para algun elemento de array es verdadero,
         devolver el elemento encontrado, sino devolver el resultado de la funcion si vacio
  */
-function ej1 (a , criterio , siVacio){
+function buscar (a , criterio , siVacio){
 
     var x =[];
 
@@ -24,8 +24,4 @@ function b (x){
     return x==3;
 }
 
-console.log(ej1([1,2,3,3], a, b));
-
-
-var x = [1,2,3,4,5];
-console.log(x[x.length - 1]); 
+console.log(buscar([0,1,2,3,3], a, b));
